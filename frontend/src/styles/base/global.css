@@ -1,0 +1,26 @@
+:root {
+    --color-primary: #7c3aed;
+    --color-secondary: #06b6d4;
+    --color-bg: #0f0f0f;
+    --color-surface: #1a1a1a;
+    --color-text: #e8e8e8;
+    --color-muted: #888;
+    --color-border: #2a2a2a;
+    --font-main: 'Inter', sans-serif;
+    --font-heading: 'Outfit', sans-serif;
+    --radius: 8px;
+    --transition: 0.2s ease;
+    --max-width: 1200px;
+}
+
+body {
+    font-family: var(--font-main);
+    background: var(--color-bg);
+    color: var(--color-text);
+}
+
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
